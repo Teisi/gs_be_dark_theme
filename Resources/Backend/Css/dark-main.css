@@ -5,14 +5,13 @@ body { background-color: #333; color: #fff; overflow-y: scroll; width: calc(100%
 .scaffold-content-navigation-expanded .scaffold-content-navigation { width: 320px; z-index: 50; }
 .typo3-pagetree-toppanel { padding-right: 30px; }
 .scaffold-content-navigation-expanded .scaffold-content-module { z-index: 100; }
-.scaffold, .module, .module-docheader + .module-body, #typo3-pagetree-topPanelItems, .module-docheader,
-  [id=ext-backend-Modules-FileSystemNavigationFrame-index-php],
-  [id=ext-backend-Modules-FileSystemNavigationFrame-index-php] .module-body,
-  [id=typo3-pagetree-treeContainer], .form-section, div.typo3-fullDoc, .table > thead > tr,
+.scaffold, .module, #typo3-pagetree-topPanelItems, .module-docheader, .form-section, div.typo3-fullDoc, .table > thead > tr,
   .modal-severity-notice .modal-header, .panel .panel-heading, .table-fit > .table, .table-striped > tbody > tr:nth-of-type(odd),
-  table, .list-tree li:last-child:before, #typo3-docheader, .cke_editable, .element-browser-main-sidebar, .modal-content,
-  .element-browser-main-sidebar, .element-browser-main-sidebar .list-tree li:last-child:before, .element-browser-main-sidebar .list-tree-control > .fa:before,
-  .t3-message-page { background-color: #333!important; }
+  table, #typo3-docheader, .cke_editable, .element-browser-main-sidebar, .modal-content,
+  .element-browser-main-sidebar, .t3-message-page { background-color: #333!important; }
+[id=typo3-pagetree-treeContainer], [id=ext-backend-Modules-FileSystemNavigationFrame-index-php],
+  [id=ext-backend-Modules-FileSystemNavigationFrame-index-php] .module-body, .element-browser-main-sidebar .list-tree li:last-child:before,
+  .element-browser-main-sidebar .list-tree-control > .fa:before, .list-tree li:last-child:before { background-color: #444!important; }
 a, .x-tree-node a span, .x-dd-drag-ghost a span, .t3js-title-inlineedit, .typo3-docheader-pagePath, .h1, .h2, .h3, h1, h2, h3, h4, h5,
   .module-docheader-bar-column-right, .module-docheader-bar-column-right strong, .module-docheader-bar-column-right a
   .module-docheader-bar-column-left, .module-docheader-bar-column-left strong, .module-docheader-bar-column-left a, .checkbox, .help-block,
@@ -32,3 +31,4 @@ a, .x-tree-node a span, .x-dd-drag-ghost a span, .t3js-title-inlineedit, .typo3-
 .scaffold-content-navigation-expanded .scaffold-content-navigation { margin-left: 10px; width: 270px; }
 #cke_1_top, #cke_1_bottom { background-color: rgba(250,250,250,0.7); }
 .t3js-toolbar-item-search { position: relative!important; }
+.list-tree-root { padding-bottom: 10px; }
