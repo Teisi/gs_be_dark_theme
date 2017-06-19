@@ -18,7 +18,7 @@ a, .x-tree-node a span, .x-dd-drag-ghost a span, .t3js-title-inlineedit, .typo3-
   .module-docheader-bar-column-left, .module-docheader-bar-column-left strong, .module-docheader-bar-column-left a, .checkbox, .help-block,
   .panel .panel-heading, #typo3-docheader .typo3-docheader-buttons, #typo3-docheader .typo3-docheader-functions, .cke_editable { color: #eee; }
 .t3js-wizardcrpages-container { border: 1px solid #fff; }
-.callout-title { color: #333; }
+.callout-title, .table > tbody > tr > td.success, .table > tbody > tr > td.warning, .table > tbody > tr > td.info, .table .service, .table .success { color: #333; }
 .x-tree-node-over a span, .x-tree-selected a span, modal-body { color: #000; }
 .t3-grid-cell, .t3-page-ce .t3-page-ce-body { background-color: #292929; }
 .t3-page-column-header, .t3-page-ce .t3-page-ce-header { background-color: #151515; color: #eee; }
@@ -31,3 +31,4 @@ a, .x-tree-node a span, .x-dd-drag-ghost a span, .t3js-title-inlineedit, .typo3-
 [id=typo3-pagetree-treeContainer] { border-top: 1px solid #c3c3c3; }
 .scaffold-content-navigation-expanded .scaffold-content-navigation { margin-left: 10px; width: 270px; }
 #cke_1_top, #cke_1_bottom { background-color: rgba(250,250,250,0.7); }
+.t3js-toolbar-item-search { position: relative!important; }
