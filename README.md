@@ -7,3 +7,5 @@ Tested with Typo3 8.7.1 with ckeditor
 
 ### ckeditor RTE ###
 - In your own custom .yaml please add "EXT:gs_be_dark_theme/Resources/Public/Css/BeDarkThemeRTE.css" to your editor.config.contentsCss
+
+![example picture from BE](Resources/Public/Images/gsbedarktheme.jpg?raw=true "Typo3 Dark Theme")
