@@ -33,4 +33,4 @@ a, .x-tree-node a span, .x-dd-drag-ghost a span, .t3js-title-inlineedit, .typo3-
 #cke_1_top, #cke_1_bottom { background-color: rgba(250,250,250,0.7); }
 .t3js-toolbar-item-search { position: relative!important; }
 .list-tree-root { padding-bottom: 10px; }
-.typo3-login .login-copyright-wrap span { color: #333; }
+.typo3-login .login-copyright-wrap span, .element-browser label { color: #333; }
